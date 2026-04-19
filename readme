@@ -1,0 +1,46 @@
+Clustering Analysis on Consumer Behavior Data
+I’ve built a case study applying clustering algorithms (K-Means, Hierarchical, DBSCAN) to segment consumers based on:
+- Annual Income
+- Spending Patterns
+- Online Engagement
+- Purchase Frequency
+- Discount Usage
+- Return Rate
+
+## Overview
+This repository explores **clustering techniques** to segment consumers based on behavioral and financial attributes. The dataset includes variables such as 
+annual income, spending patterns, online engagement, purchase activity, discount usage, and return rates. The goal is to uncover hidden customer segments 
+that can guide marketing strategies, personalization, and fraud detection.
+To uncover hidden customer segments that can drive targeted marketing, personalization, and fraud detection strategies.
+Apply clustering algorithms (K-Means, Hierarchical, DBSCAN) to identify distinct consumer groups.  
+- Visualize clusters to interpret customer behavior patterns.  
+- Provide actionable insights for targeted marketing and risk management.  
+
+
+ Insights:
+- High-value customers
+- Discount-driven shoppers
+- High-return risk group
+
+This project demonstrates how **unsupervised learning** can transform raw behavioral data into actionable business intelligence.
+
+ Dataset Variables
+- **Annual_Income**: Normalized annual income values  
+- **Spending_Score**: Consumer spending behavior  
+- **Online_Engagement**: Level of online activity  
+- **Purchase_Frequency**: Frequency of purchases  
+- **Discount_Usage**: Tendency to use discounts  
+- **Return_Rate**: Frequency of product returns  
+
+
+## ⚙️ Workflow
+1. **Data Preprocessing**: Scaling and normalization of features.  
+2. **Clustering Models**: K-Means, Hierarchical, DBSCAN.  
+3. **Evaluation**: Silhouette Score, Davies-Bouldin Index.  
+4. **Visualization**: 2D/3D cluster plots, heatmaps, and PCA projections.  
+
+## 📊 Expected Results
+- Identification of 3–5 meaningful customer clusters.  
+- Clear separation between high-value, discount-driven, and high-return customers.  
+- Actionable insights for business growth and fraud prevention.  
+
